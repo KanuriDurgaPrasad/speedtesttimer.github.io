@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    font-size: 1.2rem;
+}
+
+.main-container {
+    background-image: linear-gradient(to right, #f3eaff, #dac0ff);
+    height: 100vh;
+    width: 100vw;
+}
+
+.timer-before-container {
+    font-size: 4vw;
+}
+
+.main-container h1 {
+    color: #690cb0;
+    font-weight: bold;
+}
+
+.timer-before-container p {
+    color: #3e4c59;
+    font-weight: 500;
+}
+
+.typing-test-container {
+    background-color: #f2ebfe;
+    border-radius: 4px;
+    border-color: #9aa5b1;
+    border-width: 1vw;
+}
+
+.typing-test-container p {
+    color: #3e4c59;
+    font-weight: 600;
+}
+
+.timer-container {
+    font-weight: 400;
+}
+
+#quoteInput {
+    width: 100%;
+    border-color: #9aa5b1;
+    border-width: 0.3vw;
+    border-radius: 4px;
+}
+
+#result {
+    font-size: 5vw;
+    font-weight: 400;
+}
+
+#submitBtn {
+    background-color: #690cb0;
+}
+
+#resetBtn {
+    border-color: #9aa5b1;
+}
